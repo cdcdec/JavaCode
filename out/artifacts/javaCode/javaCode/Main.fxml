@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="mainRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cdc.MainController">
+   <top>
+       <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="1000" BorderPane.alignment="CENTER">
+          <children>
+              <MenuBar fx:id="menuBar"  prefHeight="32.0" prefWidth="1000" maxWidth="Infinity"  BorderPane.alignment="CENTER" HBox.hgrow="ALWAYS">
+                  <menus>
+                      <Menu text="File">
+                          <items>
+                              <MenuItem id="multipleSceneOne" mnemonicParsing="false" onAction="#goToMultipleSceneOne" text="MultipleSceneOne"  />
+                              <MenuItem id="multipleSceneTwo" mnemonicParsing="false" onAction="#goToMultipleSceneTwo" text="MultipleSceneTwo"  />
+                          </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Edit">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Delete" />
+                          </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Help">
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="About" />
+                          </items>
+                      </Menu>
+                  </menus>
+              </MenuBar>
+          </children>
+       </HBox>
+     <!---->
+   </top>
+
+</BorderPane>
