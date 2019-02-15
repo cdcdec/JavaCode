@@ -1,5 +1,6 @@
 package com.cdc;
 import com.cdc.multiple_scene.one.ScreensFramework;
+import com.cdc.read_text.ReadTextMain;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -35,6 +36,15 @@ public class MainController implements Initializable{
         Stage window = (Stage)mainRoot.getScene().getWindow();
         window.setTitle("HBox");
         window.setScene(tableViewScene);
+        window.show();
+    }
+
+    @FXML
+    protected  void goToReadText(ActionEvent event) throws IOException {
+        //This line gets the Stage information
+        Stage window = (Stage)mainRoot.getScene().getWindow();
+        window.setTitle("Read Text");
+        window.setScene(new ReadTextMain().getReadTextScene());
         window.show();
     }
 

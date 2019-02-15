@@ -7,17 +7,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-
 import java.io.IOException;
-
 public class Main extends Application {
-
     int screenWidth = (int) Screen.getPrimary().getBounds().getWidth();
     int screenHeight = (int) Screen.getPrimary().getBounds().getHeight();
-
     public static int sceneWidth;
     public static int sceneHeight;
-
     @Override
     public void init() throws Exception {
         super.init();
@@ -64,7 +59,6 @@ public class Main extends Application {
     public static void backMain(ActionEvent event) throws IOException {
         Parent mainParent = FXMLLoader.load(Main.class.getResource("/Main.fxml"));
         Scene mainScene = new Scene(mainParent, Main.sceneWidth,Main.sceneHeight);
-
         //This line gets the Stage information
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         mainParent.setStyle("-fx-background-color:rgb(186,153,122,0.7);");

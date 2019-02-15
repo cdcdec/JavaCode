@@ -1,0 +1,5 @@
+1、ctrl+shift+alt+s 弹出项目设置窗口，点击Artifacts页签，点+号，选择jar Empty。修改jar name，
+在OutPutLayout选项卡下点击加号，选择"Module Output",选择要打包的class文件和资源，也可以同是选择"Module Source"选择源文件打包进jar，
+将右侧需要打包进去的资源拖到左侧，
+记住Output directory 路径。保存配置。这样就创建了一个新的Artifact。
+2、回到IDEA，菜单Build > Build Artifacts.. 选择刚才创建的Artifact，点ok 生成了。Output directory目录查看你的jar文件吧。
