@@ -13,7 +13,7 @@ public class FileItem {
     public static final int IMAGE = 2;
     public static final int BAD_FORMAT = -1;
 
-    private final String[] txtTypes = { "txt", "java" };
+    private final String[] txtTypes = { "txt", "java","md" };
     private final String[] imageTypes = { "jpg", "jpeg", "png", "bmp" };
     // 构造函数，传入一个file并取得file的名字和类型
     public FileItem(File file) {

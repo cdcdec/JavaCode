@@ -48,6 +48,18 @@ public class MainController implements Initializable{
         window.show();
     }
 
+    @FXML
+    protected  void goToLayoutAnchorPane(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(getClass().getResource("/ui_layout/AnchorPane.fxml"));
+        Scene scene = new Scene(parent, Main.sceneWidth,Main.sceneHeight);
+        Stage window = (Stage)mainRoot.getScene().getWindow();
+        window.setTitle("AnchorPane");
+        window.setScene(scene);
+        window.show();
+    }
+
+
+
 
 
     @FXML

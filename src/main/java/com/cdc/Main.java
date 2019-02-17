@@ -32,22 +32,11 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         // Responsive Design
-        int sceneWidth = 0;
-        int sceneHeight = 0;
-        if (screenWidth <= 800 && screenHeight <= 600) {
-            sceneWidth = 600;
-            sceneHeight = 350;
-        } else if (screenWidth <= 1280 && screenHeight <= 768) {
-            sceneWidth = 800;
-            sceneHeight = 450;
-        } else if (screenWidth <= 1920 && screenHeight <= 1080) {
-            sceneWidth = 1000;
-            sceneHeight = 650;
-        }
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(getClass().getResource("/Main.fxml").openStream());
         MainController mainController =fxmlLoader.getController();
         root.setStyle("-fx-background-color:rgb(186,153,122,0.7);");
+        System.out.println("sceneWidth="+sceneWidth+",sceneHeight="+sceneHeight);
         Scene scene = new Scene(root,sceneWidth, sceneHeight);
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(scene);
