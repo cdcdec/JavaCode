@@ -18,6 +18,7 @@
                               <MenuItem id="multipleSceneTwo" mnemonicParsing="false" onAction="#goToMultipleSceneTwo" text="MultipleSceneTwo"  />
                               <MenuItem id="layoutHBox" mnemonicParsing="false" onAction="#goToLayoutHBox" text="LayoutHBox"  />
                               <MenuItem id="layoutAnchorPane" mnemonicParsing="false" onAction="#goToLayoutAnchorPane" text="AnchorPane"  />
+                              <MenuItem id="layoutGridPane" mnemonicParsing="false" onAction="#goToLayoutGridPane" text="GridPane"  />
                               <MenuItem id="readText" mnemonicParsing="false" onAction="#goToReadText" text="ReadText"  />
                           </items>
                       </Menu>

@@ -7,33 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e502ac58-de9d-4088-87e9-21eb3454e76f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/AnchorPaneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/agencies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icons8_500px_64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icons8_Handshake_64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icons8_Share_64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icons8_US_Dollar_64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icons8_Workflow_64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/projections.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/projects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/reliabilty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/note/Java程序运行机制.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/note/Java语言的发展简史.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/note/开发Java的准备.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/note/源文件命名规范.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/note/编译运行.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPane.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPaneUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ui_layout/GridPane.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com_cdc_JavaCode_main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com_cdc_JavaCode_main.jnlp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/com_cdc_JavaCode_main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/com_cdc_JavaCode_main.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/com.cdc.JavaCode.main.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/read_text/FileItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/read_text/FileItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,70 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPane.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="16" column="184" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="184" />
-              <folding>
-                <element signature="n#AnchorPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#VBox#0;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Button#6;n#children#0;n#VBox#0;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#HBox#0;n#children#0;n#AnchorPane#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPaneUi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="122" selection-end-column="24" />
-              <folding>
-                <element signature="n#ImageView#0;n#children#0;n#AnchorPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Label#13;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Label#14;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Label#17;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Label#18;n#children#0;n#AnchorPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-                <element signature="n#Label#9;n#children#0;n#AnchorPane#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/AnchorPaneController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+            <state relative-caret-position="266">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,9 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/util/ControlledStage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui/Layout.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/util/StageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui/ControlledScreen.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Screen3.fxml" />
@@ -184,13 +104,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/read_text/TextFileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/read_text/ReadTextMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/read_text/FileItem.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/AnchorPaneController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPane.fxml" />
         <option value="$PROJECT_DIR$/out/production/resources/ui_layout/AnchorPaneItem.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ui_layout/GridPane.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPaneUi.java" />
       </list>
     </option>
   </component>
@@ -245,15 +168,6 @@
               <item name="JavaCode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cdc" type="462c0819:PsiDirectoryNode" />
-              <item name="ui_layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +176,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="ui_controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +197,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550411541491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550488039782" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -291,19 +205,19 @@
     <property name="settings.editor.selected.configurable" value="Groovy compiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources" />
+      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\multiple_scene_one" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cdc.ui" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\ui_layout" />
       <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\images" />
       <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\note" />
       <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\multiple_scene_two" />
       <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\java\com\cdc\multiple_scene\two" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cdc.ui" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources" />
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\multiple_scene_one" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -420,7 +334,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09852547" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16152816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,8 +343,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7265416" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7265416" visible="true" weight="0.37393767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,21 +366,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ui_controller/MenuBarCon.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/one/Screen2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/multiple_scene_one/Screen2.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -706,14 +605,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="117" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="117" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/images/projects.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -734,26 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1494">
           <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPane.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="211">
           <caret line="16" column="184" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="184" />
           <folding>
             <element signature="n#AnchorPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
@@ -811,21 +682,63 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="113" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="113" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="122" selection-end-column="24" />
+        <state relative-caret-position="1558">
+          <caret line="90" column="79" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
           <folding>
-            <element signature="n#ImageView#0;n#children#0;n#AnchorPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
+            <element signature="n#ImageView#0;n#children#0;n#AnchorPane#0;n#!!top" />
+            <element signature="n#Label#0;n#children#0;n#AnchorPane#0;n#!!top" />
             <element signature="n#Label#13;n#children#0;n#AnchorPane#0;n#!!top" />
             <element signature="n#Label#14;n#children#0;n#AnchorPane#0;n#!!top" />
             <element signature="n#Label#17;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#Label#18;n#children#0;n#AnchorPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#Label#9;n#children#0;n#AnchorPane#0;n#!!top" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/GridPane.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="193" selection-start-line="9" selection-start-column="193" selection-end-line="9" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPaneUi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

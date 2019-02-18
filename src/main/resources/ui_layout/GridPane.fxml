@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Button?>
+<GridPane prefHeight="768.0" prefWidth="1024.0" vgap="30.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cdc.ui_layout.GridPaneUi">
+   <Button text="返回Main" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" onAction="#gtoToMain">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Label  text="LOCATION" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" >
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="CLIENT PAYS" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+
+   <Label  text="CLIENT1" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="LOCATION1" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" >
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="CLIENT PAYS1" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+
+   <Label  text="CLIENT2" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="LOCATION2" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" >
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="CLIENT PAYS2" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+
+   <Label  text="CLIENT3" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="LOCATION3" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" >
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label  text="CLIENT PAYS3" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

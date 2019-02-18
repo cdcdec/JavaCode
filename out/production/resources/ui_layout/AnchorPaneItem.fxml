@@ -9,7 +9,8 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="338.0" prefWidth="750.0" style="-fx-background-color: #FF4500;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.layout.GridPane?>
+<AnchorPane  prefWidth="750.0" style="-fx-background-color: #FF4500;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
     <children>
                 <ImageView fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="5.0">
                     <image>
@@ -22,75 +23,82 @@
                 <Font name="System Bold" size="18.0" />
             </font>
         </Label>
-        <Label layoutX="51.0" layoutY="113.0" text="CLIENT" textFill="#aeacac">
-            <font>
-                <Font size="14.0" />
-            </font>
-        </Label>
-        <Label layoutX="51.0" layoutY="186.0" text="LOCATION" textFill="#aeacac">
-             <font>
-                 <Font size="14.0" />
-             </font>
-         </Label>
-         <Label layoutX="279.0" layoutY="113.0" text="CLIENT PAYS" textFill="#aeacac">
-             <font>
-                 <Font size="14.0" />
-             </font>
-         </Label>
-         <Label layoutX="279.0" layoutY="186.0" text="COMMISSION" textFill="#aeacac">
-             <font>
-                 <Font size="14.0" />
-             </font>
-         </Label>
-         <Label layoutX="58.0" layoutY="139.0" text="Brad Pitt" textFill="#4d4c4c">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Label layoutX="287.0" layoutY="139.0" text="\$1000" textFill="#4d4c4c">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Label layoutX="287.0" layoutY="211.0" text="Between $190 and $270" textFill="#4d4c4c">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Label layoutX="58.0" layoutY="211.0" text="London" textFill="#4d4c4c">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Label layoutX="576.0" layoutY="113.0" text="OPERATIONS" textFill="#aeacac">
-             <font>
-                 <Font size="14.0" />
-             </font>
-         </Label>
-         <Label layoutX="576.0" layoutY="139.0" prefHeight="19.0" prefWidth="44.0" style="-fx-background-color: #aeacac;" text="Toggle" textFill="#fffefe">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Label layoutX="623.0" layoutY="139.0" style="-fx-background-color: #aeacac;" text="Monty" textFill="#fffefe">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Label layoutX="576.0" layoutY="165.0" prefHeight="19.0" prefWidth="58.0" style="-fx-background-color: #aeacac;" text="Software" textFill="#fffefe">
-             <font>
-                 <Font size="13.0" />
-             </font>
-         </Label>
-         <Pane layoutY="269.0" prefHeight="70.0" prefWidth="850.0" style="-fx-background-color: #F0F0F0;">
-             <children>
-                 <Label layoutX="61.0" layoutY="26.0" text="Drapo returns you $3000 and $1000 for all the deals" textFill="#504df2">
-                     <font>
-                         <Font size="13.0" />
-                     </font>
-                 </Label>
-             </children>
-         </Pane>
+
+        <GridPane AnchorPane.leftAnchor="8.0" vgap="30.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="100.0">
+            <Label  text="CLIENT" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="LOCATION" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER" >
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="CLIENT PAYS" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+
+            <Label  text="CLIENT1" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="LOCATION1" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" >
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="CLIENT PAYS1" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+
+            <Label  text="CLIENT2" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="LOCATION2" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" >
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="CLIENT PAYS2" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+
+            <Label  text="CLIENT3" textFill="#aeacac" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="LOCATION3" textFill="#aeacac" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" >
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Label  text="CLIENT PAYS3" textFill="#aeacac" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <Pane   style="-fx-background-color: #F0F0F0;" GridPane.rowIndex="4">
+                <children>
+                    <Label  text="Drapo returns you $3000 and $1000 for all the deals" textFill="#504df2">
+                        <font>
+                            <Font size="13.0" />
+                        </font>
+                    </Label>
+                </children>
+            </Pane>
+        </GridPane>
+
         <Label  text="Date Created" textFill="#3a1c9d" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="10.0">
              <font>
                  <Font size="14.0" />

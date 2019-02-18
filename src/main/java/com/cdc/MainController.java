@@ -1,6 +1,7 @@
 package com.cdc;
 import com.cdc.multiple_scene.one.ScreensFramework;
 import com.cdc.read_text.ReadTextMain;
+import com.cdc.ui_layout.GridPaneUi;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -70,6 +71,17 @@ public class MainController implements Initializable{
         //This line gets the Stage information
         Stage window = (Stage)mainRoot.getScene().getWindow();
         window.setTitle("multiple_scene_one");
+        window.setScene(rootScene);
+        window.show();
+    }
+
+    @FXML
+    protected  void goToLayoutGridPane(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(getClass().getResource("/ui_layout/GridPane.fxml"));
+        Scene rootScene = new Scene(parent, Main.sceneWidth,Main.sceneHeight);
+        //This line gets the Stage information
+        Stage window = (Stage)mainRoot.getScene().getWindow();
+        window.setTitle("GridPane");
         window.setScene(rootScene);
         window.show();
     }
