@@ -1,6 +1,7 @@
 package com.cdc;
 import com.cdc.multiple_scene.one.ScreensFramework;
 import com.cdc.read_text.ReadTextMain;
+import com.cdc.ui_controller.ListViewCon;
 import com.cdc.ui_layout.GridPaneUi;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -82,6 +83,17 @@ public class MainController implements Initializable{
         //This line gets the Stage information
         Stage window = (Stage)mainRoot.getScene().getWindow();
         window.setTitle("GridPane");
+        window.setScene(rootScene);
+        window.show();
+    }
+
+    @FXML
+    protected  void goTocontrollerListView(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(getClass().getResource("/ui_controller/ListView.fxml"));
+        Scene rootScene = new Scene(parent, Main.sceneWidth,Main.sceneHeight);
+        //This line gets the Stage information
+        Stage window = (Stage)mainRoot.getScene().getWindow();
+        window.setTitle("ListView");
         window.setScene(rootScene);
         window.show();
     }
