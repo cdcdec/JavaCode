@@ -3,6 +3,7 @@ import com.cdc.multiple_scene.one.ScreensFramework;
 import com.cdc.read_text.ReadTextMain;
 import com.cdc.ui_controller.ListViewCon;
 import com.cdc.ui_layout.GridPaneUi;
+import com.cdc.ui_layout.PaneCon;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,6 +13,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuBar;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -91,6 +93,17 @@ public class MainController implements Initializable{
     protected  void goTocontrollerListView(ActionEvent event) throws IOException {
         Parent parent = FXMLLoader.load(getClass().getResource("/ui_controller/ListView.fxml"));
         Scene rootScene = new Scene(parent, Main.sceneWidth,Main.sceneHeight);
+        //This line gets the Stage information
+        Stage window = (Stage)mainRoot.getScene().getWindow();
+        window.setTitle("ListView");
+        window.setScene(rootScene);
+        window.show();
+    }
+
+    @FXML
+    protected  void goToLayoutPane(ActionEvent event) throws IOException {
+        Pane pane = new PaneCon().getPane();
+        Scene rootScene = new Scene(pane, Main.sceneWidth,Main.sceneHeight);
         //This line gets the Stage information
         Stage window = (Stage)mainRoot.getScene().getWindow();
         window.setTitle("ListView");

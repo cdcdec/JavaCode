@@ -7,22 +7,145 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e502ac58-de9d-4088-87e9-21eb3454e76f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/LayoutExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/ui_controller/ListViewCon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui_controller/ListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JavaCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JAVA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/CopyModalDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/FileCopyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/FileTreeViewSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/ModalDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/OpenDirectory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/PathItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/PathTreeCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/PathTreeItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/Search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/SearchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/VisitorForDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/WatchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/temp/duke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/PaneCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/cdc/kotlincode/Top.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/cdc/kotlincode/demo/ClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/note/javaFxCss.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/note/main函数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/note/open关键字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/note/类与对象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/temp/OpenDirectory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/temp/Search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/temp/duke.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/com.cdc.JavaCode.main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/com.cdc.JavaCode.main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/msvcr100.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/msvcr100.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/packager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/packager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/COPYRIGHT" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/COPYRIGHT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/THIRDPARTYLICENSEREADME.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/THIRDPARTYLICENSEREADME.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/Welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/Welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/JAWTAccessBridge-64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/JAWTAccessBridge-64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/JavaAccessBridge-64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/JavaAccessBridge-64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/WindowsAccessBridge-64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/WindowsAccessBridge-64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/attach.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/attach.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/awt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/awt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/bci.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/bci.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/dcpr.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/dcpr.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/decora_sse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/decora_sse.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/deploy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/deploy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/dt_shmem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/dt_shmem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/dt_socket.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/dt_socket.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/fontmanager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/fontmanager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/fxplugins.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/fxplugins.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/glass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/glass.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/glib-lite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/glib-lite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/gstreamer-lite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/gstreamer-lite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/hprof.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/hprof.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/instrument.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/instrument.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/j2pcsc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/j2pcsc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/j2pkcs11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/j2pkcs11.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jaas_nt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jaas_nt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/java.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/java.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/java_crw_demo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/java_crw_demo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/javafx_font.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/javafx_font.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/javafx_font_t2k.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/javafx_font_t2k.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/javafx_iio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/javafx_iio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jawt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jawt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jdwp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jdwp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jfr.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jfr.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jfxmedia.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jfxmedia.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jfxwebkit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jfxwebkit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jli.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jli.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jpeg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jpeg.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jsdt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jsdt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jsound.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jsound.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jsoundds.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/jsoundds.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/lcms.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/lcms.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/management.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/management.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/mlib_image.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/mlib_image.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/msvcr100.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/msvcr100.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/net.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/net.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/nio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/nio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/npt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/npt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/plugin2/msvcr100.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/plugin2/msvcr100.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/plugin2/npjp2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/plugin2/npjp2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/prism_common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/prism_common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/prism_d3d.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/prism_d3d.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/prism_sw.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/prism_sw.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/resource.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/resource.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/sawindbg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/sawindbg.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/server/Xusage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/server/Xusage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/server/classes.jsa" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/server/classes.jsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/server/jvm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/server/jvm.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/splashscreen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/splashscreen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/sunec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/sunec.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/sunmscapi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/sunmscapi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/t2k.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/t2k.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/unpack.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/unpack.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/verify.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/verify.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/w2k_lsa_auth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/w2k_lsa_auth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/zip.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/bin/zip.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/accessibility.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/accessibility.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/amd64/jvm.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/amd64/jvm.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/calendars.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/calendars.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/content-types.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/content-types.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/flavormap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/flavormap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/fontconfig.bfc" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/fontconfig.bfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/fontconfig.properties.src" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/fontconfig.properties.src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/hijrah-config-umalqura.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/hijrah-config-umalqura.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/images/cursors/cursors.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/images/cursors/cursors.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/javafx.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/javafx.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/jfr/default.jfc" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/jfr/default.jfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/jfr/profile.jfc" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/jfr/profile.jfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/jvm.hprof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/jvm.hprof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/jmxremote.access" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/jmxremote.access" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/jmxremote.password.template" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/jmxremote.password.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/management.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/management.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/snmp.acl.template" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/management/snmp.acl.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/net.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/net.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/psfont.properties.ja" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/psfont.properties.ja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/psfontj2d.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/psfontj2d.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/blacklist" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/blacklist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/blacklisted.certs" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/blacklisted.certs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/cacerts" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/cacerts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/java.policy" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/java.policy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/java.security" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/java.security" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/javaws.policy" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/security/javaws.policy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/sound.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/sound.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/tzdb.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/tzdb.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/tzmappings" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com.cdc.JavaCode.main/runtime/lib/tzmappings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com_cdc_JavaCode_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com_cdc_JavaCode_main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com_cdc_JavaCode_main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/bundles/com_cdc_JavaCode_main.jnlp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/com_cdc_JavaCode_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/com_cdc_JavaCode_main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/com_cdc_JavaCode_main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/com_cdc_JavaCode_main/com_cdc_JavaCode_main.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/ui_controller/MenuBarCon.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/ui_layout/GridPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/ui_layout/GridPane.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/com.cdc.JavaCode.main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/com.cdc.JavaCode.main.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/ui_controller/ListView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/ui_controller/ListView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ui_controller/MenuBarCon.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ui_layout/GridPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ui_layout/GridPane.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,18 +161,81 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaCode" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaCode" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_controller/ListViewCon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/PaneCon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1387#1388#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Android/java-jdk/javafx-src.zip!/javafx/scene/layout/Pane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="21" column="105" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="98" column="35" lean-forward="true" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -62,6 +248,7 @@
         <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="FxmlFile" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -72,15 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/Login.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui/Screen2Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/MaimMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui/TopController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/util/ContainerController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Container.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/TopMenuBar.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/util/ScreensController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/FX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_controller/MenuBarCon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/one/ControlledScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/one/Screen2.fxml" />
@@ -108,47 +286,102 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/read_text/TextFileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/read_text/ReadTextMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/read_text/FileItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/AnchorPaneController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPane.fxml" />
         <option value="$PROJECT_DIR$/out/production/resources/ui_layout/AnchorPaneItem.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPane.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPaneItem.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/GridPaneUi.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_controller/MenuBarCon.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/LayoutExample.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_layout/GridPane.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_controller/ListViewCon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui_controller/ListView.fxml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/cdc/kotlincode/Top.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/note/kotlin/main函数.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/note/kotlin/类与对象.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/note/类与对象.md" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/cdc/kotlincode/demo/ClassDemo.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/note/open关键字.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/temp/FileTreeViewSample.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/note/javaFxCss.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/PaneCon.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/MainController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1615" />
-    <option name="height" value="880" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cdc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cdc" type="462c0819:PsiDirectoryNode" />
+              <item name="ui_layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -157,7 +390,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550548279494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550657950558" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -165,19 +398,20 @@
     <property name="settings.editor.selected.configurable" value="Groovy compiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources" />
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\multiple_scene_one" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\IdeaProjects\JavaCode\src\main\resources\temp" />
+      <recent name="E:\idea\IdeaProjects\JavaCode\src\main\java\com\cdc\temp" />
+      <recent name="E:\idea\IdeaProjects\JavaCode\src\main\resources\note" />
+      <recent name="E:\idea\IdeaProjects\JavaCode\src\main\resources\note\kotlin" />
+      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\ui_layout" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cdc.ui" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\ui_layout" />
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\images" />
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\note" />
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\multiple_scene_two" />
-      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\java\com\cdc\multiple_scene\two" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\IdeaProjects\JavaCode\src\main\resources\note" />
+      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources" />
+      <recent name="E:\IntelliJ_IDEA\project_idealc\JavaCode\src\main\resources\multiple_scene_one" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,12 +427,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="FX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cdc.FX" />
+    <configuration name="FileTreeViewSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cdc.temp.FileTreeViewSample" />
       <module name="com.cdc.JavaCode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cdc.*" />
+          <option name="PATTERN" value="com.cdc.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,35 +440,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cdc.multiple_scene.two.GUIDemo" />
-      <module name="com.cdc.JavaCode.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cdc.multiple_scene.two.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cdc.LayoutExample" />
-      <module name="com.cdc.JavaCode.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cdc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cdc.Main" />
       <module name="com.cdc.JavaCode.main" />
       <extension name="coverage">
@@ -247,33 +453,91 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreensFramework (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cdc.multiple_scene.one.ScreensFramework" />
+    <configuration name="JavaCode" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="com.cdc.kotlincode.TopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="com.cdc.JavaCode.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cdc.multiple_scene.one.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cdc.kotlincode.TopKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cdc.kotlincode.demo.ClassDemo1" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.cdc.JavaCode.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cdc.kotlincode.demo.ClassDemo1" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cdc.kotlincode.demo.ClassDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.cdc.JavaCode.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cdc.kotlincode.demo.ClassDemoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cdc.kotlincode.demo.Test" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.cdc.JavaCode.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cdc.kotlincode.demo.Test" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.FX" />
-      <item itemvalue="Application.ScreensFramework (1)" />
-      <item itemvalue="Application.GUIDemo" />
-      <item itemvalue="Application.LayoutExample" />
+      <item itemvalue="Application.FileTreeViewSample" />
+      <item itemvalue="Gradle.JavaCode" />
+      <item itemvalue="Kotlin.com.cdc.kotlincode.TopKt" />
+      <item itemvalue="Kotlin.com.cdc.kotlincode.demo.ClassDemo1" />
+      <item itemvalue="Kotlin.com.cdc.kotlincode.demo.Test" />
+      <item itemvalue="Kotlin.com.cdc.kotlincode.demo.ClassDemoKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LayoutExample" />
-        <item itemvalue="Application.GUIDemo" />
-        <item itemvalue="Application.ScreensFramework (1)" />
-        <item itemvalue="Application.FX" />
+        <item itemvalue="Application.FileTreeViewSample" />
+        <item itemvalue="Kotlin.com.cdc.kotlincode.demo.ClassDemoKt" />
+        <item itemvalue="Kotlin.com.cdc.kotlincode.demo.Test" />
+        <item itemvalue="Kotlin.com.cdc.kotlincode.demo.ClassDemo1" />
+        <item itemvalue="Kotlin.com.cdc.kotlincode.TopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -291,9 +555,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -303,113 +568,28 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7265416" weight="0.3371105" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7153518" weight="0.3336945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.17280453" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27345845" side_tool="true" weight="0.3083451" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.5080429" weight="0.12022631" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49128687" weight="0.086280055" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.28464818" side_tool="true" visible="true" weight="0.3336945" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.5080429" weight="0.3434453" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48134327" weight="0.51895994" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui/Screen3Controller.java" />
-    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="3095" column="24" selection-start-line="3095" selection-start-column="24" selection-end-line="3095" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/multiple_scene_two/FXMLDocument.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="106" column="114" selection-start-line="106" selection-start-column="92" selection-end-line="106" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="286" column="20" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/two/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/two/PersonViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/two/GUIDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/one/ScreensFramework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/FX.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Login.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/multiple_scene_one/Screen1.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_controller/MenuBarCon.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/idea打jar包.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/cdckotlin/A.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/one/Screen1Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
-          <folding>
-            <element signature="e#2737#2738#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/multiple_scene/two/FXMLDocumentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/read_text/FileListView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -444,13 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/jdk/jdk1.8.0_202/src.zip!/java/net/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6516">
-          <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/jdk/jdk1.8.0_202/src.zip!/java/net/URL.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/note/源文件命名规范.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -520,13 +694,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/images/icons8_500px_64px.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/control/ScrollPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1494">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/control/ScrollPane.java" />
     <entry file="file://$PROJECT_DIR$/out/production/resources/ui_layout/AnchorPaneItem.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -571,63 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Android/AndroidStudioGradle/.gradle/caches/modules-2/files-2.1/com.miglayout/miglayout-core/5.2/4b3f0bfa2312173be31f87caa3cc58b617eea1df/miglayout-core-5.2-sources.jar!/net/miginfocom/layout/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/control/ListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="230" column="42" lean-forward="true" selection-start-line="230" selection-start-column="42" selection-end-line="230" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/layout/RowConstraints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/layout/ConstraintsBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/LayoutExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/Android/AndroidStudioGradle/.gradle/caches/modules-2/files-2.1/com.miglayout/miglayout-core/5.2/4b3f0bfa2312173be31f87caa3cc58b617eea1df/miglayout-core-5.2-sources.jar!/net/miginfocom/layout/Grid.java" />
+    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/control/ListView.java" />
+    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/layout/RowConstraints.java" />
+    <entry file="jar://E:/jdk/jdk1.8.0_202/javafx-src.zip!/javafx/scene/layout/ConstraintsBase.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/AnchorPane.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -663,16 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ui_layout/HBox.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -693,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ui_controller/ListView.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -715,8 +812,171 @@
           <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/LayoutExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/cdc/kotlincode/Top.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/main函数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Android/java-jdk/src.zip!/java/net/URLStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.tornado/tornadofx/1.7.17/59e5067bee2d7c0fb626771edcaf2337afc92586/tornadofx-1.7.17-sources.jar!/sun/net/www/protocol/css/Handler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.tornado/tornadofx/1.7.17/680562b988010420f3a97cda69fe4e6aacfef320/tornadofx-1.7.17.jar!/tornadofx/AppKt.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.tornado/tornadofx/1.7.17/59e5067bee2d7c0fb626771edcaf2337afc92586/tornadofx-1.7.17-sources.jar!/tornadofx/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/类与对象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-350">
+            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/open关键字.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="850">
+            <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/cdc/kotlincode/demo/ClassDemo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FileTreeViewSample-master/filetreeviewsample/CopyModalDialog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/temp/CopyModalDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/temp/FileTreeViewSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="297" column="22" selection-start-line="297" selection-start-column="22" selection-end-line="297" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/javaFxCss.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="495">
+            <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="21" column="105" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="98" column="35" lean-forward="true" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Android/java-jdk/javafx-src.zip!/javafx/scene/layout/Pane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/ui_layout/PaneCon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -728,8 +988,8 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
               <type id="library" />
+              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>javaCode</last-edited>
@@ -760,7 +1020,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.44050103" />
+                <option value="0.22146341" />
               </list>
             </option>
           </splitter-proportions>
@@ -772,7 +1032,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.44050103" />
+                <option value="0.22146341" />
               </list>
             </option>
           </splitter-proportions>
@@ -780,11 +1040,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com.cdc.JavaCode</last-edited>
+          <last-edited>JavaCode</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.44050103" />
+                <option value="0.22146341" />
                 <option value="0.6" />
               </list>
             </option>
