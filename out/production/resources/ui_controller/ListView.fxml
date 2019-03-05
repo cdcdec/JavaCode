@@ -5,11 +5,6 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.control.ListView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.control.Hyperlink?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.geometry.Insets?>
 <GridPane gridLinesVisible="true" prefHeight="768.0" prefWidth="1024.0" vgap="30.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cdc.ui_controller.ListViewCon">
    <children>
       <AnchorPane GridPane.columnIndex="0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0">
