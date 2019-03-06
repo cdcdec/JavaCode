@@ -8,7 +8,11 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+<<<<<<< HEAD
     <jar href="com_cdc_JavaCode_main.jar" size="41463" download="eager" />
+=======
+    <jar href="com_cdc_JavaCode_main.jar" size="69915" download="eager" />
+>>>>>>> 04db76d7be37aa4f90c9e3bdd0db8a24230a11b9
   </resources>
   <jfx:javafx-desc  width="1024" height="768" main-class="com.cdc.Main"  name="com.cdc.JavaCode.main" />
   <update check="background"/>

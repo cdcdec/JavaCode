@@ -1,4 +1,5 @@
 package com.cdc;
+import com.cdc.kotlincode.TopKt;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -34,11 +35,12 @@ public class Main extends Application {
         // Responsive Design
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(getClass().getResource("/Main.fxml").openStream());
-        MainController mainController =fxmlLoader.getController();
+       // MainController mainController =fxmlLoader.getController();
         root.setStyle("-fx-background-color:rgb(186,153,122,0.7);");
         System.out.println("sceneWidth="+sceneWidth+",sceneHeight="+sceneHeight);
+        TopKt.p("screenWidth="+screenWidth+",screenHeight="+screenHeight);
         Scene scene = new Scene(root,sceneWidth, sceneHeight);
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Java Code");
         primaryStage.setScene(scene);
         primaryStage.setResizable(true);//窗体缩放（默认为true）
         primaryStage.show();
