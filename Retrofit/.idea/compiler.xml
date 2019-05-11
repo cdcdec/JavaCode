@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="retrofit-mock" />
+        <module name="converter-simplexml" />
+        <module name="retrofit" />
+        <module name="converter-moshi" />
+        <module name="converter-jaxb" />
+        <module name="adapter-scala" />
+        <module name="converter-guava" />
+        <module name="adapter-guava" />
+        <module name="samples" />
+        <module name="converter-gson" />
+        <module name="converter-java8" />
+        <module name="retrofit (1) (com.squareup.retrofit2)" />
+        <module name="converter-wire" />
+        <module name="adapter-rxjava2" />
+        <module name="adapter-rxjava" />
+        <module name="adapter-java8" />
+        <module name="converter-scalars" />
+        <module name="converter-jackson" />
+        <module name="converter-protobuf" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
