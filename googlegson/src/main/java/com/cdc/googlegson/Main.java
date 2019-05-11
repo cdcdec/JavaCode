@@ -51,8 +51,8 @@ class  A{
     public A() {
         this(1, 4);
     }
-    public A(int f, int g) {
-        this.f = f;
-        this.g = g;
+    public A(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 }
