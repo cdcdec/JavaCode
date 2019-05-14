@@ -69,6 +69,81 @@ String json='{' + "\"fooBar\":" + 5 + ",\"Another Foo\":" + 7 + '}';
 A actual = gson.fromJson(json, A.class);
 
 ```
+## @Expose注解
+```
+import com.google.gson.annotations.Expose;
+public class MockObject{
+//其自身包含两个属性deserialize(反序列化)和serialize（序列化），默认都为true。
+@Expose//可以序列化  也可以反序列化
+public  int exposedField = 1;
+@Expose(serialize=true, deserialize=true)//可以序列化  也可以反序列化
+public  int explicitlyExposedField = 12;
+@Expose(serialize=false, deserialize=false)//不可以序列化  也不可以反序列化
+public  int explicitlyHiddenField = 2;
+@Expose(serialize=true, deserialize=false)//可以序列化  不可以反序列化
+public  int explicitlyDifferentModeField = 21;
+public  int hiddenField = 22;//不可以序列化  也不可以反序列化
+}
+
+Gson gson=new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
+//{"exposedField":0,"explicitlyExposedField":0,"explicitlyDifferentModeField":0}
+p(gson.toJson(new MockObject()));
+
+Gson gson=new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
+String s="{\"exposedField\":11,\"explicitlyExposedField\":112,\"explicitlyHiddenField\":3,\"explicitlyDifferentModeField\":31,\"hiddenField\":32}";
+MockObject mockObject=gson.fromJson(s,MockObject.class);
+p(mockObject.exposedField);//11
+p(mockObject.explicitlyExposedField);//112
+p(mockObject.explicitlyHiddenField);//2  默认值，字符串中的3被忽略掉了
+p(mockObject.explicitlyDifferentModeField);//21  默认值，字符串中的31被忽略掉了
+p(mockObject.hiddenField);//22  默认值，字符串中的32被忽略掉了
+
+```
+
+## Map<String,String>转json  有类型序列化
+```
+Map<String, String> myMap = new HashMap<>();
+String key = "key1";
+myMap.put(key, "value1");
+myMap.put("key2", "value2");
+myMap.put("key3", "value3");
+myMap.put("key4", "value4");
+
+Type mapType = new TypeToken<Map<String, String>>() { }.getType();
+Gson gson = new Gson();
+JsonElement element = gson.toJsonTree(myMap, mapType);
+if(element.isJsonObject()){
+    JsonObject mapJsonObject = element.getAsJsonObject();
+    //{"key1":"value1","key2":"value2","key3":"value3","key4":"value4"}
+    p(mapJsonObject.toString());
+    //true
+    p(mapJsonObject.has(key));
+}
+```
+
+## Map<String,String>转json  无类型序列化
+```
+Map<String, String> myMap = new HashMap<>();
+String key = "key1";
+myMap.put(key, "value1");
+myMap.put("key2", "value2");
+myMap.put("key3", "value3");
+myMap.put("key4", "value4");
+Gson gson = new Gson();
+JsonElement element = gson.toJsonTree(myMap, myMap.getClass());
+if(element.isJsonObject()){
+    JsonObject mapJsonObject = element.getAsJsonObject();
+    //{"key1":"value1","key2":"value2","key3":"value3","key4":"value4"}
+    p(mapJsonObject.toString());
+    //true
+    p(mapJsonObject.has(key));
+}
+```
+
+
+
+
+
 
 
 

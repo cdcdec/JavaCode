@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="retrofit-mock" />
-        <module name="converter-simplexml" />
+        <module name="adapter-rxjava" />
         <module name="converter-moshi" />
         <module name="retrofit" />
         <module name="adapter-scala" />
-        <module name="converter-guava" />
+        <module name="converter-wire" />
         <module name="converter-jaxb" />
         <module name="adapter-guava" />
         <module name="samples" />
@@ -19,13 +19,13 @@
         <module name="MyRetrofit" />
         <module name="converter-java8" />
         <module name="retrofit (1) (com.squareup.retrofit2)" />
-        <module name="converter-wire" />
         <module name="adapter-rxjava2" />
-        <module name="adapter-rxjava" />
+        <module name="converter-simplexml" />
         <module name="adapter-java8" />
-        <module name="converter-scalars" />
+        <module name="converter-guava" />
         <module name="converter-jackson" />
         <module name="converter-protobuf" />
+        <module name="converter-scalars" />
       </profile>
     </annotationProcessing>
   </component>
