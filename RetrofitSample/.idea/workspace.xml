@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9afdf2e-371d-4d47-b90e-b655880e9146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../googlegson/src/main/java/com/cdc/googlegson/MockObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Retrofit/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Retrofit/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlegson/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlegson/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlegson/src/main/java/com/cdc/googlegson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/src/main/java/com/cdc/googlegson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -257,7 +250,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2699784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
