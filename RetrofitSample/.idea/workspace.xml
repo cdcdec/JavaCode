@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9afdf2e-371d-4d47-b90e-b655880e9146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -137,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-484" />
     <option name="y" value="2" />
     <option name="width" value="1400" />
@@ -249,7 +250,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2699784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

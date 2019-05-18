@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56739f05-d568-4329-9c50-48796f51047f" name="Default Changelist" comment="" />
+    <list default="true" id="56739f05-d568-4329-9c50-48796f51047f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetrofitSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RetrofitSample/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -81,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-484" />
     <option name="y" value="2" />
     <option name="width" value="1400" />
@@ -260,7 +263,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25539955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -271,7 +274,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10996564" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10996564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

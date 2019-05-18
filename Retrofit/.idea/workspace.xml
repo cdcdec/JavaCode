@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fecc3ff-717a-4bdd-aef4-6b8a3f82c568" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../RetrofitSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RetrofitSample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/retrofit/src/test/java/retrofit2/RetrofitTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-525">
-              <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+              <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/retrofit-converters/gson/src/test/java/retrofit2/converter/gson/GsonConverterFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-550">
-              <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+              <caret line="59" column="79" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
               <folding>
                 <element signature="e#1616#1617#0" expanded="true" />
                 <element signature="e#1644#1645#0" expanded="true" />
@@ -68,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonConverterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#1686#1687#0" expanded="true" />
                 <element signature="e#1721#1722#0" expanded="true" />
@@ -83,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonResponseBodyConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -110,7 +111,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-484" />
     <option name="y" value="2" />
     <option name="width" value="1400" />
@@ -397,7 +398,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32397407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -786,21 +788,21 @@
     <entry file="file://$PROJECT_DIR$/retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonResponseBodyConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retrofit/src/test/java/retrofit2/RetrofitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
-          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retrofit-converters/gson/src/test/java/retrofit2/converter/gson/GsonConverterFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-550">
-          <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+          <caret line="59" column="79" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
           <folding>
             <element signature="e#1616#1617#0" expanded="true" />
             <element signature="e#1644#1645#0" expanded="true" />
@@ -815,7 +817,7 @@
     <entry file="file://$PROJECT_DIR$/retrofit-converters/gson/src/main/java/retrofit2/converter/gson/GsonConverterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#1686#1687#0" expanded="true" />
             <element signature="e#1721#1722#0" expanded="true" />
