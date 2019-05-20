@@ -25,11 +25,55 @@ server.enqueue(new MockResponse().setBody("abc"));
 Call call = new OkHttpClient.Builder().build().newCall(request);
 try {
     Response response=call.execute();
-    LogUtil.w(response.body().string());
+    LogUtil.w(response.body().string());//输出abc
     } catch (IOException e){
             e.printStackTrace();
     }
 ```
+
+## post上传参数  键值对
+
+```
+ public void  postJsonStr(Callback callback){
+    //要上传的参数
+    RequestBody requestBody = RequestBody.create(MediaType.parse("text/plain;charset=utf-8"), "{\"username\":\"admin\";\"password\":\"admin\"}");
+    server.enqueue(new MockResponse()
+                    .setResponseCode(200)
+                    .setBody("{\"username\":\"admin\";\"password\":\"admin\",\"type\":1}"));
+            Request request = new Request.Builder()
+            .post(requestBody)
+            .url(server.url("/"))
+            .build();
+    Call call = getHttpClient().newCall(request);
+    call.enqueue(callback);
+   }
+```
+
+## post上传字符串
+```
+ public void  postJsonStr(Callback callback){
+    //上传的字符串
+    RequestBody requestBody = RequestBody.create(MediaType.parse("text/plain;charset=utf-8"), "{\"username\":\"admin\";\"password\":\"admin\"}");
+    server.enqueue(new MockResponse()
+                    .setResponseCode(200)
+                    //返回的字符串
+                    .setBody("{\"username\":\"admin\";\"password\":\"admin\",\"type\":1}"));
+            Request request = new Request.Builder()
+            .post(requestBody)
+            .url(server.url("/"))
+            .build();
+    Call call = getHttpClient().newCall(request);
+    call.enqueue(callback);
+    }
+
+```
+
+
+
+
+
+
+
 
 
 

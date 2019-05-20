@@ -2,116 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1b284c-e83e-4007-afe2-bf93d9adeb8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/RecordingEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/CityInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/Forecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/JsonRootBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/ResultCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/Yesterday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TestKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/AddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/AutobahnTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CacheControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CertificateChainCleanerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CertificatePinnerKotlinTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CertificatePinnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CipherSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ConnectionCoalescingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ConnectionReuseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ConnectionSpecTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ConscryptTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CookieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/CookiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/DelegatingSSLSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/DelegatingSSLSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/DelegatingServerSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/DelegatingSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/DispatcherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/DuplexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/EventListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/FallbackTestClientSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/FormBodyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/HeadersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/HttpUrlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/InterceptorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/KotlinSourceCompatibilityTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/MediaTypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/MultipartBodyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/OkHttpClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/PlatformRuleTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ProtocolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/RecordedResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/RecordingCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/RecordingEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/RecordingExecutor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/RecordingWebSocketListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/RequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ResponseBodyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/ResponseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/SocksProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/SocksProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/TestLogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/TestTls13Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/URLConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/UrlComponentEncodingTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/WebPlatformUrlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/WebPlatformUrlTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/WholeOperationTimeoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/DoubleInetAddressDns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/RecordingAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/RecordingOkAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/SocketRecorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/UtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/cache/DiskLruCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/cache2/FileOperatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/cache2/RelayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/connection/ConnectionPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/connection/ConnectionSpecSelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/connection/RouteExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/connection/RouteSelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http/CancelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http/ExternalHttp2Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http/HttpDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http/RecordingProxySelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http/StatusLineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http/ThreadInterruptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/BaseTestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/FrameLogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/HpackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/Http2ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/Http2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/HttpOverHttp2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/HuffmanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/MockHttp2Peer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/http2/SettingsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/io/FaultyFileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/platform/Jdk8WithJettyBootPlatformTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/platform/Jdk9PlatformTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/platform/PlatformTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/publicsuffix/PublicSuffixDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/publicsuffix/PublicSuffixListGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/tls/CertificatePinnerChainValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/tls/ClientAuthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/tls/HostnameVerifierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/ws/RealWebSocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/ws/WebSocketHttpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/ws/WebSocketReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/ws/WebSocketRecorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp3/internal/ws/WebSocketWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/web-platform-test-urltestdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_city.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Retrofit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RetrofitSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RetrofitSample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../googlegson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -151,16 +89,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="403">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -168,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/RequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
+            <state relative-caret-position="125">
               <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
@@ -177,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/OkHttpClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="211" column="3" selection-start-line="211" selection-start-column="3" selection-end-line="211" selection-end-column="54" />
+            <state relative-caret-position="153">
+              <caret line="160" column="22" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -186,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="83" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="83" />
+            <state relative-caret-position="106">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,29 +141,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/CallTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="184" column="53" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/RecordingCallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <first_editor relative-caret-position="401">
+                <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -257,7 +184,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/kotlin/okhttp3/CertificatePinnerKotlinTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/okhttp3/ConscryptTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/TestKotlin.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/JsonRootBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean/Data.java" />
@@ -266,9 +192,10 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/LogUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/RecordingEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java" />
       </list>
     </option>
   </component>
@@ -279,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-484" />
     <option name="y" value="2" />
     <option name="width" value="1400" />
@@ -304,6 +231,46 @@
               <item name="OKHTTP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OKHTTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OKHTTP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="OKHTTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OKHTTP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OKHTTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OKHTTP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OKHTTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OKHTTP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cdc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OKHTTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OKHTTP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cdc" type="462c0819:PsiDirectoryNode" />
+              <item name="okhttp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -313,6 +280,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../tools/android-sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/cdc/okhttp/weatherBean" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -385,10 +353,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22462203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16468683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +365,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.05154639" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20274915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +379,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.06695464" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.047516197" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -483,13 +451,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/User.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/TestKotlin.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -706,29 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/RecordingCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-testing-support/3.14.1/4dc1e27f92e4c3210308a8a29166b10ebc03b076/okhttp-testing-support-3.14.1-sources.jar!/okhttp3/TestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,33 +687,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/OkHttpClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Bean.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="211" column="3" selection-start-line="211" selection-start-column="3" selection-end-line="211" selection-end-column="54" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/RequestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
+        <state relative-caret-position="125">
           <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/OkHttpClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="83" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="160" column="22" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/RecordingCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/okhttp3/CallTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
+        <state relative-caret-position="753">
           <caret line="184" column="53" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="53" />
         </state>
       </provider>
@@ -779,10 +725,30 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <first_editor relative-caret-position="401">
+            <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/OkHttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cdc/okhttp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

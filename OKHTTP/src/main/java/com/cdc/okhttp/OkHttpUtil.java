@@ -32,7 +32,11 @@ public class OkHttpUtil {
         call.enqueue(callback);
     }
 
-
+    /**
+     * post上传参数 键值对
+     * @param callback
+     * @param url
+     */
     public void post(Callback callback, String url) {
         //Form表单格式的参数传递
         FormBody formBody = new FormBody.Builder()
@@ -43,6 +47,22 @@ public class OkHttpUtil {
         Request request = new Request.Builder()
                 .post(formBody)
                 .url(url)
+                .build();
+        Call call = getHttpClient().newCall(request);
+        call.enqueue(callback);
+    }
+
+
+    public void  postJsonStr(Callback callback){
+        //上传的字符串
+        RequestBody requestBody = RequestBody.create(MediaType.parse("text/plain;charset=utf-8"), "{\"username\":\"admin\";\"password\":\"admin\"}");
+        server.enqueue(new MockResponse()
+                        .setResponseCode(200)
+                        //返回的字符串
+                        .setBody("{\"username\":\"admin\";\"password\":\"admin\",\"type\":1}"));
+                Request request = new Request.Builder()
+                .post(requestBody)
+                .url(server.url("/"))
                 .build();
         Call call = getHttpClient().newCall(request);
         call.enqueue(callback);
